@@ -1,0 +1,77 @@
+* {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+/*header*/
+header{
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+.list{
+    background-color: #444;
+    display: block;
+    height: 50px;
+    margin: 0px;
+    justify-content: center;
+}
+.item-list{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.item-list a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.center{
+    overflow-x: hidden;
+}
+.main_image_container{
+    z-index: 90;
+    height: 65vh;
+    /* width: 200vw; */
+    background-image: url("/public/static_imgs/red_japan.png");
+    background-size: cover;
+    /* background-clip: border-box; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left bottom;
+    /* background-position-x: 75vh; */
+    /* background-position-y: 60vw; */
+}
+.main_image_container h1{
+    color: white;
+    display: inline-block;
+    margin: 10%;
+}
+h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    margin: auto;
+    background: #F0E68C;
+}
+.content{
+    display:block;
+    background: #F0E68C;
+}
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card{
+    display: block;
+    width: 500px;
+    height: 500px;
+    box-shadow: 0px 0px 20px gray;
+    margin: 20px;
+}
+.card img{
+    height: 60%;
+    object-fit: contain;
+}
+.card h3{
+    margin: auto;
+}

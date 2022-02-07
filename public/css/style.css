@@ -1,0 +1,91 @@
+* {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+/*header*/
+header{
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+.list{
+    background-color: #444;
+    display: block;
+    height: 50px;
+    margin: 0px;
+    justify-content: center;
+}
+.item-list{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.item-list a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+/*profile*/
+.profile-logout{
+    /* display:block; */
+    /* text-decoration: none; */
+    /* font-size: 25px; */
+    /* color: white; */
+    width: 150px;
+    height: 35px;
+    /* border: 2px solid; */
+    /* text-align: center; */
+    background-color: rgb(49, 165, 74);
+}
+.profile-picture{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border:2px solid rgb(49, 165, 74) ;
+}
+/*allfiles and myfiles*/
+.items-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.item_frame{
+    padding: 30px;
+    margin: 10px;
+}
+.img_frame{
+    margin: auto;
+    margin-bottom: 10px;
+    width:25vw;
+    height: 25vh;
+    z-index: 10;
+    object-fit: cover;
+}
+.img_frame img{
+    z-index: 20;
+    object-fit: cover;
+    width:25vw;
+    height: 25vh;
+}
+.uploaded-video{
+    width: 25vw;
+    height: 20vh;
+    z-index: 0;
+}
+.choose-file{
+    width: 50vw;
+    display:inline-block;
+}
+.fa-folder{
+    font-size: 125px;
+}
+.folder{
+    border: 2px solid #444;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    max-height: min-content;
+    max-width: min-content;
+    padding: 10px;
+    margin: 20px;
+}
